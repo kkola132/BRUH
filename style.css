@@ -3,8 +3,8 @@ h2,h1{
 		color:#28C833;
 		text-align:center;
 		font-family:"Arial";
-	} 
-body{
+	}
+.main{
 		background:url(back2.jpg),url(back3.jpg);
 		background-repeat:no-repeat,repeat-x;
 		background-position:center;
@@ -12,12 +12,10 @@ body{
 		font-family: 'Caveat';
 		font-size: 14px;
 	}
-a{
+.futer a{
 	color:#800000;
 	font-size:2.5em;
-}
-.main{
-	display:flex;
+	display:block;
 }
 .ultra {
 	font-size:2.5em;
@@ -27,11 +25,6 @@ a{
 }
 .ultra span {
 	color:black;
-}
-.hotelmotel {
-	text-align:justify;
-	font-size:2.1em;
-	margin-top:15px;
 }
 .Bull {
 	background:#9dd53a;
@@ -53,12 +46,9 @@ a{
 	transition-duration:0.5s;
 	cursor: pointer;
 }
-.Y {
+.futer {
 	text-align:left;
 	margin:4% 1%;
-}
-.Y a{
-	display:block;
 }
 .Bull p {
 	background-image:url(klever.png);
@@ -70,4 +60,16 @@ a{
 	background-repeat:no-repeat;
 	margin:5%;
 	padding-left:12%;
+}
+.ultra a {
+	font-size:1em;
+	color:black;
+	text-decoration:none;
+}
+.ultra a:hover{
+	text-decoration:underline;
+}
+.info {
+	font-size:2em;
+	text-align:justify;
 }
